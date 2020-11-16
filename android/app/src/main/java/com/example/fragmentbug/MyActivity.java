@@ -11,7 +11,7 @@ public class MyActivity extends AppCompatActivity {
     if (savedInstanceState == null) {
       getSupportFragmentManager()
           .beginTransaction()
-          .add(android.R.id.content, new MyFlutterFragment())
+          .add(android.R.id.content, new NativeFragment())
           .commitNow();
     }
   }
